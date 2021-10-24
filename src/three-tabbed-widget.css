@@ -1,0 +1,182 @@
+.dashboard-widget-tab button:focus,
+.dashboard-widget-tab input:focus,
+.dashboard-widget-tab textarea:focus,
+.dashboard-widget-tab select:focus {
+  outline: none;
+}
+
+.dashboard-widget-tabs {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dashboard-widget-tabs h4 {
+  display: none;
+}
+
+.dashboard-widget-tabs [class^="dashboard-widget-tab"] label,
+.dashboard-widget-tabs [class*=" dashboard-widget-tab"] label {
+  cursor: pointer;
+  display: block;
+  height: 0.5em;
+}
+
+.dashboard-widget-tabs [class^="dashboard-widget-tab"] [type="radio"],
+.dashboard-widget-tabs [class*=" dashboard-widget-tab"] [type="radio"] {
+  /*border-bottom: 2px solid rgba(239, 237, 239, 0.5);*/
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dashboard-widget-tabs [class^="dashboard-widget-tab"] [type="radio"]:after,
+.dashboard-widget-tabs [class*=" dashboard-widget-tab"] [type="radio"]:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  border-bottom: 2px solid rgba(239, 237, 239, 0.5);
+}
+
+.dashboard-widget-tabs
+  [class^="dashboard-widget-tab"]
+  [type="radio"]:hover:after,
+.dashboard-widget-tabs
+  [class^="dashboard-widget-tab"]
+  [type="radio"]:focus:after,
+.dashboard-widget-tabs
+  [class*=" dashboard-widget-tab"]
+  [type="radio"]:hover:after,
+.dashboard-widget-tabs
+  [class*=" dashboard-widget-tab"]
+  [type="radio"]:focus:after {
+  border-bottom: 2px solid #188fff;
+}
+
+.dashboard-widget-tabs
+  [class^="dashboard-widget-tab"]
+  [type="radio"]:checked:after,
+.dashboard-widget-tabs
+  [class*=" dashboard-widget-tab"]
+  [type="radio"]:checked:after {
+  border-bottom: 2px solid #188fff;
+}
+
+.dashboard-widget-tabs
+  [class^="dashboard-widget-tab"]
+  [type="radio"]:checked
+  + div,
+.dashboard-widget-tabs
+  [class*=" dashboard-widget-tab"]
+  [type="radio"]:checked
+  + div {
+  opacity: 1;
+}
+
+.dashboard-widget-tabs [class^="dashboard-widget-tab"] [type="radio"] + div,
+.dashboard-widget-tabs [class*=" dashboard-widget-tab"] [type="radio"] + div {
+  display: block;
+  opacity: 0;
+  padding: 2rem 0;
+  width: 70%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab {
+  width: 33.3%;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab [type="radio"] + div {
+  width: 100%;
+  margin-left: 100%;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab [type="radio"] + div {
+  width: 100%;
+  margin-left: 100%;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab [type="radio"]:focus + div,
+.dashboard-widget-tabs
+  .dashboard-widget-tab
+  [type="radio"].dashboard-widget-tab-focused
+  + div {
+  margin-left: -100%;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab:nth-child(1) [type="radio"] + div {
+  margin-left: 0;
+}
+
+.dashboard-widget-tabs
+  .dashboard-widget-tab:nth-child(3)
+  [type="radio"]:checked
+  + div {
+  margin-left: -200%;
+}
+
+/*.dashboard-widget-tabs .dashboard-widget-tab:nth-child(2) [type="radio"] + div {
+  margin-left: 200%;
+}*/
+
+/*.dashboard-widget-tabs .dashboard-widget-tab:nth-child(3) [type="radio"]:checked + div {
+  margin-left: -300%;
+}*/
+
+.dashboard-widget-tabs .dashboard-widget-tabs-content {
+  width: 300%;
+  text-align: center;
+  display: block;
+  font-size: 48px;
+  color: #40a9ff;
+}
+
+.dashboard-widget-tabs
+  .dashboard-widget-tab
+  [type="radio"]:checked[data-label]:after {
+  content: attr(data-label);
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  color: #188fff;
+}
+
+.dashboard-widget-tabs .dashboard-widget-tab [type="radio"][data-label]:after {
+  content: attr(data-label);
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  color: #efedef;
+}
+
+.dashboard-widget-tabs
+  .dashboard-widget-tab
+  [type="radio"][data-label]:hover:after,
+.dashboard-widget-tabs
+  .dashboard-widget-tab
+  [type="radio"][data-label]:focus:after {
+  color: #188fff;
+}

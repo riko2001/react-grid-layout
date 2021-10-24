@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 15616 4887"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .pen {stroke:#2B2A29;stroke-width:7.67401}
+    .light {fill:#4ecdfd;fill-rule:nonzero}
+    .dark {fill:#383261;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="AlifaCloud_x0020_Logo">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="light" id="svg_path1" d="M2443 0c675,0 1286,274 1728,716 442,442 716,1053 716,1727 0,675 -274,1286 -716,1728 -442,442 -1053,716 -1728,716 -674,0 -1285,-274 -1727,-716 -442,-442 -716,-1053 -716,-1728 0,-674 274,-1285 716,-1727 442,-442 1053,-716 1727,-716zm1651 793c-422,-423 -1006,-684 -1651,-684 -644,0 -1228,261 -1650,684 -423,422 -684,1006 -684,1650 0,645 261,1229 684,1651 422,423 1006,684 1650,684 645,0 1229,-261 1651,-684 423,-422 684,-1006 684,-1651 0,-644 -261,-1228 -684,-1650z"/>
+  <path class="light" id="svg_path2" d="M3472 1818l196 9c20,1 38,13 46,31l81 178c20,43 81,41 98,-3l68 -184c7,-19 24,-32 44,-34l195 -22c46,-6 63,-65 26,-94l-153 -122c-16,-13 -23,-32 -19,-52l39 -192c9,-46 -42,-80 -81,-55l-164 109c-16,11 -37,11 -54,2l-171 -97c-41,-23 -89,15 -77,60l52 189c6,19 0,40 -15,53l-144 133c-35,32 -14,89 33,91z"/>
+  <path class="dark pen" id="svg_path3" d="M3350 2000c73,-79 195,-84 274,-12 78,73 83,195 11,274 -96,104 -196,199 -298,287l293 607c46,96 6,212 -90,258 -96,47 -212,7 -258,-90l-874 -1813 -673 1456c260,-74 629,-211 1001,-451l168 349c-751,472 -1480,566 -1483,567 -106,14 -203,-60 -217,-166 -6,-38 1,-75 16,-107l-1 0 1010 -2182c45,-97 160,-140 257,-95 44,20 77,55 95,96l582 1209c64,-59 126,-121 187,-187z"/>
+ </g>
+</svg>

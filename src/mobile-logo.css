@@ -1,0 +1,9 @@
+.mobile-logo-wrapper {
+  position: absolute;
+  padding: 5px 45vw;
+}
+
+.mobile-logo-container {
+  width: 180px;
+  height: 180px;
+}

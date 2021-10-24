@@ -1,0 +1,48 @@
+.user-form-plan-content {
+  border-radius: 5px;
+  background-color: #d9f7be;
+  padding: 18px 18px;
+  line-height: 25px;
+  display: table;
+}
+
+/*.user-form-plan-info-sm,
+.user-form-plan-info-md {
+  margin-top: 30px;
+}*/
+
+.user-form-plan-info .plan-flexbox-line1 {
+  font-size: 18px;
+  font-weight: 550;
+  color: #002766;
+  white-space: nowrap;
+}
+
+.user-form-plan-info .plan-flexbox-line2 {
+  font-size: 20px;
+  font-weight: 550;
+  color: #000 !important;
+  white-space: nowrap;
+}
+
+.user-form-plan-info .plan-flexbox-link {
+  color: #002766;
+  text-decoration: none;
+  text-align: left;
+  overflow: hidden;
+}
+
+/*#user-form-plan-info .plan-flexbox-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}*/
+
+/*#user-form-plan-info .plan-flexbox-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 5% 20px;
+}*/

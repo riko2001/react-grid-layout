@@ -1,0 +1,122 @@
+@import "https://code.highcharts.com/css/highcharts.css";
+
+.highchart-loader svg {
+  -webkit-clip-path: inset(0 0 0 0 round 5px);
+  clip-path: inset(0 0 0 0 round 5px);
+}
+
+.highcharts-contextmenu .highcharts-menu-item {
+  padding: 0.1em 1em !important;
+}
+
+/*.highcharts-contextmenu .highcharts-menu-item {
+  font-size: 12px;
+  padding: 0.1em 1em;
+  white-space: nowrap;
+}*/
+
+.highcharts-contextmenu .highcharts-menu-item:last-child {
+  display: none;
+}
+
+.highcharts-yaxis-labels text,
+.highcharts-xaxis-labels text {
+  color: #bfbfbf;
+  opacity: 0.55;
+}
+
+/*.highcharts-yaxis-labels text:nth-child(odd), */
+.highcharts-yaxis-grid .highcharts-grid-line:nth-child(odd) {
+  opacity: 0.85;
+}
+
+.highcharts-background {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.highcharts-custom-windrose-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-windir-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-gauge-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-histogram-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-step-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-plot-wrapper {
+  height: 100%;
+  padding: 0 auto;
+}
+
+.highcharts-custom-gauge-label-value {
+  font-size: 25px;
+}
+
+.highcharts-custom-gauge-label-suffix {
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.highcharts-custom-gauge-label-wrapper {
+  text-align: center;
+}
+
+.highcharts-custom-loader-wrapper {
+  padding: 15% 0;
+}
+
+.highcharts-custom-loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #597ef7;
+  -webkit-animation: spinning-loader 2s linear infinite;
+  animation: spinning-loader 2s linear infinite;
+  transform-origin: 50% 50% 0;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+
+@-webkit-keyframes spinning-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinning-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*.highcharts-color-0:nth-child(1) {
+  fill: #597ef7;
+}*/
+
+/*.highcharts-color-0:nth-child(2) {
+  fill: #bae637;
+}*/

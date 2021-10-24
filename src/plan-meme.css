@@ -1,0 +1,102 @@
+.user-form-meme-wrapper.user-form-icon-container {
+  width: 200px;
+  min-width: 200px;
+}
+
+.user-form-meme-first-line-large {
+  height: 55px;
+}
+
+.user-form-meme-first-line-small {
+  height: 35px;
+}
+
+.user-form-meme-second-line {
+  height: 2px;
+}
+
+.user-form-meme-wrapper
+  .user-form-meme-container
+  [class^="user-form-denomination"] {
+  font-size: 18px;
+  white-space: nowrap;
+  color: #4ecdfd;
+}
+
+.user-form-denomination-lg {
+  display: flex;
+  justify-content: left;
+}
+
+.user-form-denomination-md,
+.user-form-denomination-sm,
+.user-form-denomination-xs {
+  display: flex;
+  justify-content: left;
+}
+
+.user-form-meme-wrapper .user-form-meme-container .user-form-level {
+  _padding-bottom: 40px;
+  font-size: 14px;
+  font-weight: 550;
+  white-space: nowrap;
+  color: #002766;
+}
+
+.user-circle-miniature {
+  background: #fdbcc8;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.user-form-meme-wrapper.user-form-flexbox-wrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.user-circle-miniature-scaled {
+  transform: scale(0.75);
+}
+
+#user-circle-miniature:after {
+  content: " ";
+  display: block;
+}
+
+.plan-meme-user-name {
+  margin-top: -4px;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #4ecdfd;
+}
+
+.plan-meme-user-name.plan-meme-user-level-sm[data-level]:after,
+.plan-meme-user-name.plan-meme-user-level-xs[data-level]:after {
+  content: attr(data-level);
+  position: absolute;
+  top: 15px;
+  left: 25%;
+  transform: translate(-50%, 0);
+  font-size: 14px;
+  font-weight: 550;
+  white-space: nowrap;
+  color: #002766;
+}
+
+.plan-meme-user-name.plan-meme-user-level-lg[data-level]:after,
+.plan-meme-user-name.plan-meme-user-level-md[data-level]:after {
+  content: attr(data-level);
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-size: 14px;
+  font-weight: 550;
+  white-space: nowrap;
+  color: #002766;
+}

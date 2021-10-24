@@ -1,0 +1,52 @@
+.onboarding-timeline-label {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.onboarding-step-line-container {
+  align-items: center;
+  display: flex;
+}
+
+.onboarding-step-line-on {
+  border-bottom: 1px solid rgb(30, 30, 30);
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 5px;
+  border-color: #4ecdfd;
+}
+
+.onboarding-step-line-off {
+  border-bottom: 1px solid rgb(30, 30, 30);
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 5px;
+  border-color: #ccc;
+}
+
+.onboarding-step-dot-on {
+  font-size: 30px;
+  font-weight: 550;
+  color: #4ecdfd;
+}
+
+.onboarding-step-dot-off {
+  font-size: 30px;
+  font-weight: 550;
+  color: #c8c8c8;
+}
+
+.onboarding-step-dot-on[data-label]:after {
+  content: attr(data-label);
+  display: block;
+  position: absolute;
+  top: calc(50% + 5px);
+  left: calc(100% - (25px + 1px));
+  font-size: 10px;
+  width: 50px;
+  white-space: nowrap;
+}
